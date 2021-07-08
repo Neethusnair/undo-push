@@ -22,7 +22,7 @@ jobs:
         name: semantic-release
         uses: ahmadnassri/action-semantic-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
   alias:
     needs: release
